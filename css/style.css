@@ -124,7 +124,7 @@ main>section>.container {
 }
 
 #second-mac-download{
-	color: white;
+	/* color: white; */
 }
 
 /* FOOTER */
@@ -149,27 +149,23 @@ main>section>.container {
 
 .footer-main-col {
 	width: calc(100% / 3);
-
-	/* debug */
-	background-color: #f08080;
-	border: 2px dashed black;
 }
 
 .footer-side-col {
 	display: flex;
 	width: calc(100% / 3 * 2);
-
-	/* debug */
-	background-color: #20b2aa;
-	border: 2px dashed black;
 }
 
 .footer-col {
 	width: 25%;
+}
 
-	/* debug */
-	background-color: #20b2aa;
-	border: 2px dashed white;
+.list-style{
+	list-style: none;
+}
+
+.link-words:hover{
+	text-decoration: underline;
 }
 
 .footer-bottom {
@@ -177,16 +173,8 @@ main>section>.container {
 	justify-content: space-between;
 	align-items: center;
 	min-height: 80px;
-
-	/* debug */
-	background-color: #7fffd4;
 }
 
 .footer-bottom>* {
 	padding: 5px 10px;
-
-
-	/* debug */
-	background-color: #ffb6c1;
-	border: 2px dashed black;
 }
