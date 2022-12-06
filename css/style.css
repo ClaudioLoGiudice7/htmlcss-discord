@@ -72,19 +72,16 @@ main>section>.container {
 
 .first-main-col {
 	flex-grow: 2;
-	/* margin-top: 10px;
-	margin-right: 80px; */
+	
 }
 
 .first-item{
-	/* width: 2500px; */
+	
 }
 
 .first-side-col {
 	flex-grow: 1;
-	/* margin-top: 40px;
-	margin-left: 100px;
-	padding-right: 100px; */
+	
 }
 
 .second-side-col{
@@ -96,7 +93,7 @@ main>section>.container {
 }
 
 .second-item{
-	/* width: 850px; */
+	
 }
 
 .third-main-col{
@@ -104,12 +101,11 @@ main>section>.container {
 }
 
 .third-item{
-	/* width: 600px;
-	margin-left: 50px; */
+	
 }
 
 .third-side-col{
-	
+
 }
 
 .highlighted-content {
@@ -117,8 +113,6 @@ main>section>.container {
 
 	/* debug */
 	min-height: 800px;
-	background-color: forestgreen;
-	border: 2px dashed black;
 }
 
 /* FOOTER */
