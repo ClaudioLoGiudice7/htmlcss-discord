@@ -74,17 +74,15 @@ main>section>.container {
 	flex-grow: 2;
 }
 
-.first-item.main-col{
-	background-image: url("../img/item1.svg");
-	background-repeat: no-repeat;
+.first-item{
+	width: 2500px;
 }
 
 .side-col {
 	flex-grow: 1;
-
-	/* debug */
-	background-color: pink;
-	border: 2px dashed black;
+	margin-top: 35px;
+	margin-left: 100px;
+	padding-right: 100px;
 }
 
 .highlighted-content {
