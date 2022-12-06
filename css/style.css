@@ -70,25 +70,46 @@ main>section>.container {
 	background-color: lightgray;
 }
 
-.main-col {
+.first-main-col {
 	flex-grow: 2;
-	margin-top: 10px;
-	margin-right: 80px;
+	/* margin-top: 10px;
+	margin-right: 80px; */
 }
 
 .first-item{
-	width: 2500px;
+	/* width: 2500px; */
 }
 
-.side-col {
+.first-side-col {
 	flex-grow: 1;
-	margin-top: 40px;
+	/* margin-top: 40px;
 	margin-left: 100px;
-	padding-right: 100px;
+	padding-right: 100px; */
+}
+
+.second-side-col{
+
+}
+
+.second-main-col{
+
 }
 
 .second-item{
-	width: 850px;
+	/* width: 850px; */
+}
+
+.third-main-col{
+
+}
+
+.third-item{
+	/* width: 600px;
+	margin-left: 50px; */
+}
+
+.third-side-col{
+	
 }
 
 .highlighted-content {
