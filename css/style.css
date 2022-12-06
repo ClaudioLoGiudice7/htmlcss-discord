@@ -49,6 +49,10 @@ a{
 	width: 50%;
 }
 
+#first-mac-download{
+
+}
+
 /* MAIN & SECTIONS */
 
 main>section {
@@ -113,6 +117,14 @@ main>section>.container {
 
 	/* debug */
 	min-height: 800px;
+}
+
+.fourth-item{
+
+}
+
+#second-mac-download{
+	color: white;
 }
 
 /* FOOTER */
