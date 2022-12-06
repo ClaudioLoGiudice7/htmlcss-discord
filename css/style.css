@@ -72,10 +72,11 @@ main>section>.container {
 
 .main-col {
 	flex-grow: 2;
+}
 
-	/* debug */
-	background-color: cornflowerblue;
-	border: 2px dashed black;
+.first-item.main-col{
+	background-image: url("../img/item1.svg");
+	background-repeat: no-repeat;
 }
 
 .side-col {
