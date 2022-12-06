@@ -1,3 +1,13 @@
+/* UTILS */
+
+.white{
+	color: #fff;
+}
+
+.bigger-font-size{
+	font-size: 48px;
+}
+
 /* HEADER */
 
 .header-head {
@@ -19,6 +29,9 @@
 .header-nav>* {
 	flex-basis: 20%;
 	padding: 5px 10px;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
 }
 
 a{
@@ -26,12 +39,22 @@ a{
 }
 
 .header-links {
+	display: flex;
+	justify-content: space-evenly;
 	flex-grow: 1;
 	text-align: center;
 }
 
 .header-login {
-	text-align: right;
+	display: flex;
+	justify-content: center;
+	padding-right: 70px;
+}
+
+#login-button{
+	border-radius: 28px;
+	border: transparent;
+	padding: 10px;
 }
 
 /* JUMBOTRON */
@@ -47,10 +70,33 @@ a{
 .jumbotron .content {
 	min-height: 400px;
 	width: 50%;
+	text-align: center;
 }
 
-#first-mac-download{
+#first-h1{
+	margin: 30px 20px;
+}
 
+#first-p{
+	font-size: 20px;
+}
+
+#first-mac-download {
+	margin-top: 30px;
+	margin-right: 15px;
+	font-size: 20px;
+	padding: 20px;
+	border-radius: 28px;
+	border: transparent;
+}
+
+#browser-button{
+	background-color: #1f2326;
+	font-size: 20px;
+	font-size: 20px;
+	padding: 20px;
+	border-radius: 28px;
+	border: transparent;
 }
 
 /* MAIN & SECTIONS */
